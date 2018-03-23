@@ -1,0 +1,19 @@
+{
+  "name": "Twidere-Thumbor-Heroku",
+  "scripts": {
+  },
+  "env": {
+    "BUILDPACK_URL": "https://github.com/ddollar/heroku-buildpack-multi",
+    "THUMBOR_SECURITY_KEY": "killua9527"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/ddollar/heroku-buildpack-multi"
+    }
+  ]
+}
